@@ -203,7 +203,106 @@ footer {
 /******************   MEDIA  ********************/
 
 /******************   Mobile  ********************/
-@media all and (min-width: 200px) and (max-width: 768px) {
+
+@media all and (min-width: 300px) and (max-width: 375px) {
+  body {
+    background-color: #FAFAFA;
+  }
+  .encabezado__nav{
+    font-size: .7em;
+    height: 120px;
+    padding: 10px;
+    width: 100vw;
+  }
+
+  .encabezado__nav-img {
+    display: none;
+
+  }
+
+  .encabezado__nav a {
+    width: 100px;
+    font-size: 1.4em;
+  }
+
+  .menu__article-h2 {
+    font-size: .8em;
+  }
+
+  .menu__article-product {
+    width: 200px;
+    height: 250px;
+    font-size: 1em;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .menu__article-product img {
+    width: 100px;
+  }
+
+  .menu__article-maps {
+    max-width: 250px;
+    height: 270px;
+    font-size: .9em;
+  }
+
+  .menu__article-maps iframe {
+    width: 230px;
+    height: 200px;
+  }
+
+  .menu__article-contacto {
+    font-size: .6em;
+    width: 250px;
+    background-color: #FFF;
+    height: 200px;
+  }
+
+  input[type="text"], input[type="email"], input[type="number"] {
+    font-size: .9em;
+    width: 200px;
+  }
+
+  input[type="submit"] {
+    font-size: .8em;
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+  footer {
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    grid-area: footer
+  }
+  .footer-descripcion{
+  font-size: .4;
+  flex-direction: row;
+  margin-bottom: 5px;
+
+  }
+
+  .footer-derechos{
+    font-size: 1.5em;
+    order: 10
+  }
+
+  .footer-redes img{
+   width: 25px;
+   flex-direction: row;
+   margin-bottom: 5px;
+
+
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 768px) {
   body {
     background-color: #FAFAFA;
   }
@@ -241,14 +340,14 @@ footer {
   }
 
   .menu__article-maps {
-    max-width: 400px;
-    height: 370px;
+    max-width: 350px;
+    height: 350px;
     font-size: .9em;
   }
 
   .menu__article-maps iframe {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 290px;
   }
 
   .menu__article-contacto {
@@ -419,3 +518,4 @@ footer {
     height: 420px;
   }
 }
+
